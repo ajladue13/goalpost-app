@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class GoalsVC: UIViewController {
 
@@ -16,7 +17,6 @@ class GoalsVC: UIViewController {
     // What to peform when the view loads
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View loaded correctly")
     }
 
 
