@@ -18,6 +18,7 @@
 		14DC66C8208BD8100039D22C /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66C7208BD8100039D22C /* GoalCell.swift */; };
 		14DC66CA208BEDE60039D22C /* goalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66C9208BEDE60039D22C /* goalType.swift */; };
 		14DC66CC208BF6FD0039D22C /* CreateGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66CB208BF6FD0039D22C /* CreateGoalVC.swift */; };
+		14DC66CE208BFACB0039D22C /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66CD208BFACB0039D22C /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		14DC66C7208BD8100039D22C /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 		14DC66C9208BEDE60039D22C /* goalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalType.swift; sourceTree = "<group>"; };
 		14DC66CB208BF6FD0039D22C /* CreateGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGoalVC.swift; sourceTree = "<group>"; };
+		14DC66CD208BFACB0039D22C /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		14DC66C6208BCB800039D22C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				14DC66CD208BFACB0039D22C /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 			files = (
 				14DC66C8208BD8100039D22C /* GoalCell.swift in Sources */,
 				14DC66CC208BF6FD0039D22C /* CreateGoalVC.swift in Sources */,
+				14DC66CE208BFACB0039D22C /* UIViewControllerExt.swift in Sources */,
 				14DC66CA208BEDE60039D22C /* goalType.swift in Sources */,
 				14DC6695208BC8AE0039D22C /* GoalsVC.swift in Sources */,
 				14DC6693208BC8AE0039D22C /* AppDelegate.swift in Sources */,
