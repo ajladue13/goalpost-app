@@ -18,9 +18,9 @@ class GoalCell: UITableViewCell {
     //Functions
     
     // Configure the cell with data from the database
-    func configureCell(description: String, type: String, goalProgressAmount: Int){
+    func configureCell(description: String, type: GoalType, goalProgressAmount: Int){
         self.goalDescriptionLbl.text = description
-        self.goalTypeLbl.text = type
+        self.goalTypeLbl.text = type.rawValue
         self.goalProgressLbl.text = String(describing: goalProgressAmount) //String(describing:) converts the int to a string for the label
     }
 }
