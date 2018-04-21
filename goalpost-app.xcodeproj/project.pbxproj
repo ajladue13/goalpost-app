@@ -15,6 +15,7 @@
 		14DC66A0208BC8AF0039D22C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14DC669E208BC8AF0039D22C /* LaunchScreen.storyboard */; };
 		14DC66AB208BC8AF0039D22C /* goalpost_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66AA208BC8AF0039D22C /* goalpost_appTests.swift */; };
 		14DC66B6208BC8AF0039D22C /* goalpost_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66B5208BC8AF0039D22C /* goalpost_appUITests.swift */; };
+		14DC66C8208BD8100039D22C /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14DC66C7208BD8100039D22C /* GoalCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		14DC66B1208BC8AF0039D22C /* goalpost-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "goalpost-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14DC66B5208BC8AF0039D22C /* goalpost_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = goalpost_appUITests.swift; sourceTree = "<group>"; };
 		14DC66B7208BC8AF0039D22C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14DC66C7208BD8100039D22C /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		14DC66C4208BCB5C0039D22C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				14DC66C7208BD8100039D22C /* GoalCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14DC66C8208BD8100039D22C /* GoalCell.swift in Sources */,
 				14DC6695208BC8AE0039D22C /* GoalsVC.swift in Sources */,
 				14DC6693208BC8AE0039D22C /* AppDelegate.swift in Sources */,
 				14DC669B208BC8AE0039D22C /* goalpost_app.xcdatamodeld in Sources */,
