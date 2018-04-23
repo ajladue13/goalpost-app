@@ -135,18 +135,39 @@
                                                         </stackView>
                                                     </subviews>
                                                 </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T4m-fW-q4g">
+                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GOAL COMPLETE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ixe-fu-CRP">
+                                                            <rect key="frame" x="56.5" y="15" width="262.5" height="41"/>
+                                                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="30"/>
+                                                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                    <color key="backgroundColor" red="1" green="0.7199097284" blue="0.35139949180000002" alpha="0.75266886645962738" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <constraints>
+                                                        <constraint firstItem="ixe-fu-CRP" firstAttribute="centerY" secondItem="T4m-fW-q4g" secondAttribute="centerY" id="iMc-oC-TQx"/>
+                                                        <constraint firstItem="ixe-fu-CRP" firstAttribute="centerX" secondItem="T4m-fW-q4g" secondAttribute="centerX" id="jEl-MI-Yzy"/>
+                                                    </constraints>
+                                                </view>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="T4m-fW-q4g" firstAttribute="leading" secondItem="Q2X-YE-q9x" secondAttribute="leading" id="Byb-Rg-6AI"/>
                                                 <constraint firstItem="L2K-ed-fAu" firstAttribute="top" secondItem="Q2X-YE-q9x" secondAttribute="top" constant="8" id="Dmg-6M-A9C"/>
                                                 <constraint firstItem="JMl-po-Hgu" firstAttribute="top" secondItem="Q2X-YE-q9x" secondAttribute="top" constant="8" id="PGp-wg-U4c"/>
+                                                <constraint firstItem="T4m-fW-q4g" firstAttribute="top" secondItem="Q2X-YE-q9x" secondAttribute="top" id="PsS-G6-nbL"/>
                                                 <constraint firstAttribute="bottom" secondItem="JMl-po-Hgu" secondAttribute="bottom" constant="8" id="W3V-eZ-u9W"/>
                                                 <constraint firstAttribute="bottom" secondItem="L2K-ed-fAu" secondAttribute="bottom" constant="8" id="aRf-xa-GN0"/>
                                                 <constraint firstItem="L2K-ed-fAu" firstAttribute="leading" secondItem="JMl-po-Hgu" secondAttribute="trailing" constant="10" id="b4O-od-gPO"/>
                                                 <constraint firstItem="JMl-po-Hgu" firstAttribute="leading" secondItem="Q2X-YE-q9x" secondAttribute="leading" constant="15" id="dl8-62-koK"/>
                                                 <constraint firstAttribute="trailing" secondItem="L2K-ed-fAu" secondAttribute="trailing" constant="8" id="ndB-Ke-XyL"/>
+                                                <constraint firstAttribute="trailing" secondItem="T4m-fW-q4g" secondAttribute="trailing" id="tWE-LJ-vUo"/>
+                                                <constraint firstAttribute="bottom" secondItem="T4m-fW-q4g" secondAttribute="bottom" id="xSu-oz-kxL"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="completionView" destination="T4m-fW-q4g" id="5Vj-Ru-xRc"/>
                                             <outlet property="goalDescriptionLbl" destination="NDX-y9-G1z" id="CWs-aL-fZh"/>
                                             <outlet property="goalProgressLbl" destination="L2K-ed-fAu" id="68T-dO-JFd"/>
                                             <outlet property="goalTypeLbl" destination="cxh-lK-2Gj" id="kAe-c0-Sc2"/>
